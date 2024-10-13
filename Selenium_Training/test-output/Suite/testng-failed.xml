@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="num1" value="6"/>
+    <parameter name="num2" value="5"/>
+    <classes>
+      <class name="testNGBasic.Working_With_Parameters">
+        <methods>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- testNGBasic.Working_With_Parameters -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
